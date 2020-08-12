@@ -16,6 +16,7 @@ def solve(bo):
     return False
 
 
+
 def valid(bo, num, pos):
     for i in range(9):
         if bo[pos[0]][i] == num and i != pos[1]: return False
@@ -35,6 +36,7 @@ def find_empty(bo):
             if bo[i][j] == 0:
                 return i, j
     return None
+
 
 
 solve(board)
