@@ -13,6 +13,7 @@ def generate_sudoku():
         grid[r][c] = num
     print_grid(grid)
 
+    
 
 def print_grid(grid):
     for it in grid:print(*it)
